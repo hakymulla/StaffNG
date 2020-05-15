@@ -1,3 +1,0 @@
-Username, Password, Email, Fullname
-Username1, Password1, Email1, Fullname1
-Username2, Password2, Email2, Fullname2
