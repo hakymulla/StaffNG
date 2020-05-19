@@ -104,15 +104,5 @@ class Staff:
         Welcome()
 
 
-def checkaccountdetails():
-    account_num = input('Enter Account Number: ')
-    with open('customer.txt') as file:
-        for line in file:
-            print(line[:-3].split(','))
-            account_name, opening_balance, account_type, account_email, account_number = line[:-3].split(',')
-            print(account_number)
-            if account_num == account_number.strip(' '):
-                print(f'Account Name : {account_name} \nOpening Balance : {opening_balance} \nAccount Type : {account_type} \nAccount Email : {account_email} \nAccount Number : {account_number}')
-
 if __name__ == '__main__':
     Welcome()
